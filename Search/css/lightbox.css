@@ -1,0 +1,62 @@
+.lightbox-overlay {
+    background: rgba(51, 163, 220, 0.3);;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+
+.lightbox-overlay.visible {
+    opacity: 1;
+}
+
+.lightbox-overlay .lightbox-close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/close.svg') 0 0 no-repeat;
+    background-size: 30px 30px;
+    cursor: pointer;
+}
+
+.lightbox-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+
+.lightbox-container.visible {
+    opacity: 1;
+}
+
+.lightbox-image {
+    background: transparent;
+    height: auto;
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 100;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    display: block;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+
+.lightbox-image.lightbox-current {
+    opacity: 1;
+}

@@ -1,0 +1,124 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#mask_1_);}
+	.st1{fill:none;stroke:#ff8040;stroke-width:10;stroke-miterlimit:10;}
+	.st2{fill:#B9EEE5;}
+	.st3{fill:#e3e3e3;}
+	.st4{fill:#333333;}
+	.st5{fill:#bababa;}
+	.st6{fill:#74cee2;stroke:#e3e3e3;stroke-width:4;stroke-miterlimit:10;}
+	.st7{fill:#33a3dc;}
+    .star{fill:#FFFFFF;}
+</style>
+<g> 
+	<defs>
+		<circle id="mask" cx="250" cy="250" r="196.5"/>
+	</defs>
+	<use xlink:href="#mask"  style="overflow:visible;fill:#ffa042;"/>
+	<clipPath id="mask_1_">
+		<use xlink:href="#mask"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="linePattern" class="st0">
+		<line class="st1" x1="-186.2" y1="183" x2="317" y2="686.2"/>
+		<line class="st1" x1="-167.7" y1="164.6" x2="335.4" y2="667.7"/>
+		<line class="st1" x1="-149.2" y1="146.1" x2="353.9" y2="649.2"/>
+		<line class="st1" x1="-130.8" y1="127.7" x2="372.3" y2="630.8"/>
+		<line class="st1" x1="-112.3" y1="109.2" x2="390.8" y2="612.3"/>
+		<line class="st1" x1="-93.9" y1="90.7" x2="409.3" y2="593.9"/>
+		<line class="st1" x1="-75.4" y1="72.3" x2="427.7" y2="575.4"/>
+		<line class="st1" x1="-56.9" y1="53.8" x2="446.2" y2="556.9"/>
+		<line class="st1" x1="-38.5" y1="35.4" x2="464.6" y2="538.5"/>
+		<line class="st1" x1="-20" y1="16.9" x2="483.1" y2="520"/>
+		<line class="st1" x1="-1.6" y1="-1.6" x2="501.6" y2="501.6"/>
+		<line class="st1" x1="16.9" y1="-20" x2="520" y2="483.1"/>
+		<line class="st1" x1="35.4" y1="-38.5" x2="538.5" y2="464.6"/>
+		<line class="st1" x1="53.8" y1="-56.9" x2="556.9" y2="446.2"/>
+		<line class="st1" x1="72.3" y1="-75.4" x2="575.4" y2="427.7"/>
+		<line class="st1" x1="90.7" y1="-93.9" x2="593.9" y2="409.3"/>
+		<line class="st1" x1="109.2" y1="-112.3" x2="612.3" y2="390.8"/>
+		<line class="st1" x1="127.7" y1="-130.8" x2="630.8" y2="372.3"/>
+		<line class="st1" x1="146.1" y1="-149.2" x2="649.2" y2="353.9"/>
+		<line class="st1" x1="164.6" y1="-167.7" x2="667.7" y2="335.4"/>
+		<line class="st1" x1="183" y1="-186.2" x2="686.2" y2="317"/>
+	</g>
+    <g class="st0">
+        
+    <circle class="star" cx="280" cy="10" r="6">
+        <animate attributeName="cx" attributeType="XML"
+             from="280"  to="10"
+             begin="0s" dur="3s"
+             fill="remove" repeatCount="indefinite"/>
+        <animate attributeName="cy" attributeType="XML"
+             from="10"  to="280"
+             begin="0s" dur="3s"
+             fill="remove" repeatCount="indefinite"/>
+    </circle>
+    <circle class="star" cx="490" cy="180" r="4">
+        <animate attributeName="cx" attributeType="XML"
+             from="490"  to="180"
+             begin="0s" dur="5.5s"
+             fill="remove" repeatCount="indefinite"/>
+        <animate attributeName="cy" attributeType="XML"
+             from="180"  to="490"
+             begin="0s" dur="5.5s"
+             fill="remove" repeatCount="indefinite"/>
+    </circle>
+    <circle class="star" cx="400" cy="10" r="3">
+        <animate attributeName="cx" attributeType="XML"
+             from="400"  to="10"
+             begin="0s" dur="8s"
+             fill="remove" repeatCount="indefinite"/>
+        <animate attributeName="cy" attributeType="XML"
+             from="10"  to="400"
+             begin="0s" dur="8s"
+             fill="remove" repeatCount="indefinite"/>
+    </circle>
+        
+	<g id="rocket" >
+		<polygon class="st2" points="206.9,284.1 140,600 -104,360 "/>
+		<polygon class="st3" points="318.4,172.3 291.9,270.7 265.5,369.1 208.3,282.3 121.5,225.2 220,198.7 		"/>
+		<polygon class="st4" points="169.5,293.7 179.5,256.1 217.1,246 244.7,273.5 234.6,311.1 197,321.2 		"/>
+		<g>
+			<path class="st3" d="M193.6,297.6c0.2,0.2,0.3,0.3,0.5,0.5C193.8,297.8,193.7,297.6,193.6,297.6
+				C193.5,297.5,193.5,297.5,193.6,297.6z"/>
+			<path class="st3" d="M350.3,203.2c9.6-34.9,11.8-67.7,8.5-71c-3.3-3.3-35.7-1.1-70.5,8.4c13.8,4.8,26.7,12.7,37.8,23.8
+				C337.5,175.8,345.5,189.1,350.3,203.2z"/>
+			<path class="st5" d="M313.9,275.5c17.1-17.1,28.9-45.3,36.3-72.2c-4.7-14.1-12.8-27.5-24.1-38.8c-11.1-11.1-24.1-19-37.8-23.8
+				c-27.1,7.4-55.5,19.3-72.7,36.5c-39.3,39.3-49.2,93.1-22.2,120.3c0.2,0.2,0.4,0.4,0.6,0.6C221.3,324.6,274.8,314.6,313.9,275.5z"
+				/>
+		</g>
+		<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -64.33 260.765)" class="st6" cx="282.6" cy="208" rx="30.4" ry="30.4"/>
+        
+        <animateMotion
+              path="M10,-8 C 12,-8 14,-12 12,-8 Z"
+              begin="0s" dur="1s" repeatCount="indefinite"
+              />
+        
+	</g>
+	<g id="cloud1">
+		<path class="st7" d="M33.5,424.6c-24.8,0-47.9-11.8-62.5-31.7c-15.4-4.3-29.4-13.3-39.5-25.8c-11.2-13.8-17.4-31.1-17.4-48.9 c0-12.6,3.1-25,8.9-36.1c-1.4-5.5-2.1-11.2-2.1-17c0-37.7,30.7-68.4,68.4-68.4c4.4,0,8.9,0.4,13.2,1.3c9.8-4.3,20.3-6.5,31.1-6.5 c28.5,0,54.9,15.9,68.4,40.9c25.9,13.2,42.4,39.9,42.4,69.1c0,26.5-13.6,51.1-35.8,65.3C99.6,400.6,68.8,424.6,33.5,424.6z"/>
+		<path id="cloud2" class="st2" d="M134.3,301.5c0-27.4-16.3-51-39.8-61.6c-10.9-22.7-34.1-38.5-61-38.5c-10.8,0-20.9,2.5-30,7 c-4.6-1.2-9.4-1.8-14.4-1.8c-32.2,0-58.4,26.1-58.4,58.4c0,6.4,1,12.5,2.9,18.2c-6.1,10.2-9.7,22.1-9.7,34.8 c0,32.3,22.7,59.3,53,66c12.1,18.4,32.8,30.5,56.5,30.5c32.7,0,60-23.2,66.2-54.1C120.4,348.9,134.3,326.9,134.3,301.5z"/>
+        <animateTransform attributeName="transform" attributeType="XML"
+                      type="rotate"
+                      from="360 20 300" to="0 20 300"
+                      begin="0s" dur="5s"
+                      repeatCount="indefinite"
+                      additive="sum"
+                      />
+	</g>
+	<g id="cloud2">
+		<path class="st7" d="M200.5,573.6c-24.8,0-47.9-11.8-62.5-31.7c-15.4-4.3-29.4-13.3-39.5-25.8c-11.2-13.8-17.4-31.1-17.4-48.9 c0-12.6,3.1-25,8.9-36.1c-1.4-5.5-2.1-11.2-2.1-17c0-37.7,30.7-68.4,68.4-68.4c4.4,0,8.9,0.4,13.2,1.3c9.8-4.3,20.3-6.5,31.1-6.5 c28.5,0,54.9,15.9,68.4,40.9c25.9,13.2,42.4,39.9,42.4,69.1c0,26.5-13.6,51.1-35.8,65.3C266.6,549.6,235.8,573.6,200.5,573.6z"/>
+		<path id="cloud1" class="st2" d="M301.3,450.5c0-27.4-16.3-51-39.8-61.6c-10.9-22.7-34.1-38.5-61-38.5c-10.8,0-20.9,2.5-30,7 c-4.6-1.2-9.4-1.8-14.4-1.8c-32.2,0-58.4,26.1-58.4,58.4c0,6.4,1,12.5,2.9,18.2c-6.1,10.2-9.7,22.1-9.7,34.8 c0,32.3,22.7,59.3,53,66c12.1,18.4,32.8,30.5,56.5,30.5c32.7,0,60-23.2,66.2-54.1C287.4,497.9,301.3,475.9,301.3,450.5z"/>
+        <animateTransform attributeName="transform" attributeType="XML"
+                      type="rotate"
+                      from="0 200 450" to="360 200 450"
+                      begin="0s" dur="5s"
+                      repeatCount="indefinite"
+                      additive="sum"
+                      />
+	</g>
+    </g>
+    <use xlink:href="#mask"  style="overflow:visible;fill:none;stroke:#BCBCBC;stroke-width:14;stroke-miterlimit:10;"/>
+</g>
+</svg>

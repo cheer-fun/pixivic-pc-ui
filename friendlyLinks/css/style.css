@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "AOS Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.container .info {
+    width: 100vw;
+    margin-left: calc(350px - 50vw);
+    padding: 15px calc(50vw - 350px);
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    color: #454d5d;
+}
+
+.container .version {
+    overflow: hidden;
+    padding: 10px;
+    margin: -10px;
+}
+
+.container .version h4,
+.container .version ul,
+.container .version li {
+    color: #454d5d;
+}
+
+.container .version ul {
+    margin-left: 10px;
+}
+
+.container h2 {
+    margin: 0;
+    font-size: 2.4em;
+    position: relative;
+    color: #454d5d;
+}
+
+.container h4 {
+    font-size: 1.2em;
+    position: relative;
+}
+
+.container h4::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #b9eee5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 11px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px #b0b0b0;
+
+}
+
+.container h4::after {
+    content: "";
+    height: 100vh;
+    width: 2px;
+    background: #b9eee5;
+    position: absolute;
+    left: 9px;
+    top: 6px;
+}
+
+.container p {
+    color: #acb3c2;
+}
+
+.container a,
+.container a:hover,
+.container a:active {
+    text-decoration: none;
+    color: #454d5d;
+}
+
+.container .info a::after {
+    content: ">";
+    margin-left: 5px;
+    display: inline-block;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.info img {
+    width: 150px;
+    right: 200px;
+}

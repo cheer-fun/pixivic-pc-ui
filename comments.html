@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <title>PIC留言板</title>
+    <link rel="icon" href="/MessageBoard/img/icon.png" type="image/x-icon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="提供Pixiv每日排行插画的浏览与下载,以及有限的高级会员搜索">
+    <meta name="keywords" content="pixiv.net,pixiv中国,pixiv怎么上不去,Pixiv,Pixiv每日排行,pixiv高级会员搜索,p站,二次元插画,ACG,动漫图包,pixiv安卓,pixiv站,.pixiv,pixiv图,pixiv中文"/>
+    <meta http-equiv="Cache-Control" content=”no-siteapp”/>
+    <link rel="stylesheet" href="/MessageBoard/css/style.css">
+    <link rel="stylesheet" href="/MessageBoard/css/animation.css">
+    <link rel="stylesheet" href="/MessageBoard/css/comment.css">
+    <link rel="stylesheet" href="/MessageBoard/css/form.css">
+    <script type="text/javascript" src="/MessageBoard/js/baidutongji.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="info">
+        <img src="/MessageBoard/img/girl.gif">
+        <h2>用户の留言</h2>
+        <p>使用上的意见与建议，将提供有限的改善</p>
+        <img id="plane" onclick="replytoAdmin()" src="/MessageBoard/img/plane.svg">
+    </div>
+</div>
+<ul class="comments">
+</ul>
+<div id="gototop">
+    <img src="/MessageBoard/img/rocket.svg">
+</div>
+<div class="mask"></div>
+<div id="form-container">
+    <form method="POST" onsubmit="return false" action="#" id="myform">
+        <label for="name-input">Name</label>
+        <input id="name-input" name="user" maxlength="25" type="text" autocomplete="on" placeholder="昵称" required/>
+        <label for="email-input">Email</label>
+        <input id="email-input" name="email" maxlength="25" type="text" autocomplete="on"
+               placeholder="邮箱(回复提醒)" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" required/>
+        <textarea id="content-input" name="content" rows="3" required></textarea>
+        <div>
+            <input type="checkbox" id="check" name="isRobot" value="on"/>
+            <label for="check" class="checkbox" id="robotcheck">
+                <span id="robotcheckbutton"></span>咱可不是robot酱(请勾选)
+            </label>
+        </div>
+        <button id="submit-form" type="submit">评论</button>
+    </form>
+
+</div>
+</body>
+<script type="text/javascript" src="/MessageBoard/js/buildTree.js"></script>
+<script type="text/javascript" src="/MessageBoard/js/cookie.js"></script>
+<script type="text/javascript" src="/MessageBoard/js/submit.js"></script>
+<script type="text/javascript" src="/MessageBoard/js/index.js"></script>
+</html>

@@ -1,0 +1,146 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #b9eee5;
+    min-height: 100%;
+    position: relative;
+    font-family: Arial;
+}
+
+.banner img {
+    width: 100%;
+    height: 50%;
+    border-bottom-right-radius: 70% 60%;
+    border-bottom-left-radius: 70% 60%;
+    margin: -40% 0 0 0;
+    z-index: -2;
+}
+
+.banner {
+    position: relative;
+    z-index: -2;
+}
+
+#title {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #b9eee5;
+    font-size: 8.3vw;
+}
+
+.search {
+    position: relative;
+    text-align: center;
+    margin: 1% 0 0 0;
+}
+
+.search form {
+    display: inline;
+}
+
+#search-btn {
+    background: #ffffff;
+    color: #b9eee5;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    border: 0 none;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#search-box {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+    border: 0 none;
+    width: 200px;
+}
+
+.dailyRankIcon {
+    position: relative;
+    text-align: center;
+    margin: 2% 0 3px 13px;
+    cursor:pointer;
+}
+
+.dailyRank {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #8c8c8c;
+    text-align: center;
+
+}
+
+.foot hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(140, 140, 140, 0.75), rgba(0, 0, 0, 0));
+}
+
+.iconList {
+    text-align: center;
+    width: 100%;
+}
+
+.iconList img {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25px
+}
+
+.help {
+    margin-top: 1%;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: white
+}
+
+a:active {
+    color: white
+}
+.sky {
+    top: 0;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}

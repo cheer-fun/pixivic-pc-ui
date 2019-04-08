@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset>
+    <url>
+        <loc>https://pixivic.com/index.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://pixivic.com/popSearch.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>    
+    <url>
+        <loc>https://pixivic.com/dailyRank.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://pixivic.com/links.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://pixivic.com/intro.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://pixivic.com/comments.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://pixivic.com/daily/2018-09-01.html</loc>
+        <lastmod>2018-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-02.html</loc>
+        <lastmod>2018-09-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-03.html</loc>
+        <lastmod>2018-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-04.html</loc>
+        <lastmod>2018-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-05.html</loc>
+        <lastmod>2018-09-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-06.html</loc>
+        <lastmod>2018-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-07.html</loc>
+        <lastmod>2018-09-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-08.html</loc>
+        <lastmod>2018-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-09.html</loc>
+        <lastmod>2018-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-10.html</loc>
+        <lastmod>2018-09-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-11.html</loc>
+        <lastmod>2018-09-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-12.html</loc>
+        <lastmod>2018-09-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-13.html</loc>
+        <lastmod>2018-09-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-14.html</loc>
+        <lastmod>2018-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-15.html</loc>
+        <lastmod>2018-09-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-16.html</loc>
+        <lastmod>2018-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-17.html</loc>
+        <lastmod>2018-09-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-18.html</loc>
+        <lastmod>2018-09-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-19.html</loc>
+        <lastmod>2018-09-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-20.html</loc>
+        <lastmod>2018-09-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-21.html</loc>
+        <lastmod>2018-09-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-22.html</loc>
+        <lastmod>2018-09-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-23.html</loc>
+        <lastmod>2018-09-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-24.html</loc>
+        <lastmod>2018-09-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-25.html</loc>
+        <lastmod>2018-09-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-26.html</loc>
+        <lastmod>2018-09-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-27.html</loc>
+        <lastmod>2018-09-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-28.html</loc>
+        <lastmod>2018-09-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-29.html</loc>
+        <lastmod>2018-09-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-09-30.html</loc>
+        <lastmod>2018-09-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-01.html</loc>
+        <lastmod>2018-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-02.html</loc>
+        <lastmod>2018-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-03.html</loc>
+        <lastmod>2018-10-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-04.html</loc>
+        <lastmod>2018-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-05.html</loc>
+        <lastmod>2018-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-06.html</loc>
+        <lastmod>2018-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-07.html</loc>
+        <lastmod>2018-10-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-08.html</loc>
+        <lastmod>2018-10-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-09.html</loc>
+        <lastmod>2018-10-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-10.html</loc>
+        <lastmod>2018-10-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-11.html</loc>
+        <lastmod>2018-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-12.html</loc>
+        <lastmod>2018-10-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-13.html</loc>
+        <lastmod>2018-10-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-14.html</loc>
+        <lastmod>2018-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-15.html</loc>
+        <lastmod>2018-10-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-16.html</loc>
+        <lastmod>2018-10-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-17.html</loc>
+        <lastmod>2018-10-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-18.html</loc>
+        <lastmod>2018-10-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-19.html</loc>
+        <lastmod>2018-10-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-20.html</loc>
+        <lastmod>2018-10-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-21.html</loc>
+        <lastmod>2018-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-22.html</loc>
+        <lastmod>2018-10-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-23.html</loc>
+        <lastmod>2018-10-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-24.html</loc>
+        <lastmod>2018-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-25.html</loc>
+        <lastmod>2018-10-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-26.html</loc>
+        <lastmod>2018-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-27.html</loc>
+        <lastmod>2018-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-28.html</loc>
+        <lastmod>2018-10-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-29.html</loc>
+        <lastmod>2018-10-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-30.html</loc>
+        <lastmod>2018-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-10-31.html</loc>
+        <lastmod>2018-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-01.html</loc>
+        <lastmod>2018-11-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-02.html</loc>
+        <lastmod>2018-11-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-03.html</loc>
+        <lastmod>2018-11-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-04.html</loc>
+        <lastmod>2018-11-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-05.html</loc>
+        <lastmod>2018-11-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-06.html</loc>
+        <lastmod>2018-11-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-07.html</loc>
+        <lastmod>2018-11-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-08.html</loc>
+        <lastmod>2018-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-09.html</loc>
+        <lastmod>2018-11-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-10.html</loc>
+        <lastmod>2018-11-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-11.html</loc>
+        <lastmod>2018-11-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-12.html</loc>
+        <lastmod>2018-11-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-13.html</loc>
+        <lastmod>2018-11-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-14.html</loc>
+        <lastmod>2018-11-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-15.html</loc>
+        <lastmod>2018-11-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-16.html</loc>
+        <lastmod>2018-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-17.html</loc>
+        <lastmod>2018-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-18.html</loc>
+        <lastmod>2018-11-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-19.html</loc>
+        <lastmod>2018-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-20.html</loc>
+        <lastmod>2018-11-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-21.html</loc>
+        <lastmod>2018-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-22.html</loc>
+        <lastmod>2018-11-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-23.html</loc>
+        <lastmod>2018-11-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-24.html</loc>
+        <lastmod>2018-11-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-25.html</loc>
+        <lastmod>2018-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-26.html</loc>
+        <lastmod>2018-11-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-27.html</loc>
+        <lastmod>2018-11-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-28.html</loc>
+        <lastmod>2018-11-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-29.html</loc>
+        <lastmod>2018-11-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-11-30.html</loc>
+        <lastmod>2018-11-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-12-01.html</loc>
+        <lastmod>2018-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-12-02.html</loc>
+        <lastmod>2018-12-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-12-03.html</loc>
+        <lastmod>2018-12-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>    <url>
+        <loc>https://pixivic.com/daily/2018-12-04.html</loc>
+        <lastmod>2018-12-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>

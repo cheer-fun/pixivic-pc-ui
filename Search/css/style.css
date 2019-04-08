@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: "Arial", arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#waterfall {
+    width: 948px;
+    min-height: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    overflow-y: visible;
+    display: block;
+
+}
+
+#waterfall .box {
+    border-radius: 4px;
+    position: absolute;
+    width: 228px;
+    font-size: 12px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    transition: opacity .4s ease-in-out;
+}
+
+.bot {
+    position: absolute;
+    bottom: 10px;
+    height: 30px;
+    left: 50%;
+    border: 1px solid #888;
+    padding: 10px;
+    background-color: #fff;
+}
+
+a {
+    width: 100%;
+    min-height: 50px;
+    display: block;
+    overflow: hidden;
+    color: #aaa;
+}
+
+p {
+    color: #666666;
+    display: block;
+    padding: 0 16px;
+    margin: 10px 0;
+    line-height: 1.35em;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#waterfall .box img {
+    border-radius: 4px 4px 0px 0px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    transition: transform .3s ease
+}
+
+#waterfall .box img:hover {
+    transform: scale(1.3)
+}
+
+.loader {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -100px;
+    padding: 10px 0px 10px 0px;
+}
+
+.loaderimg {
+    height: 100px;
+}
+
+.searchBox {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    margin: 50px auto;
+    transform: translate(-50%, -50%);
+}
+
+.searchBox .searchForm {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    border: 3px solid #33a3dc;
+    border-radius: 17px;
+}
+
+.searchForm input#searchField {
+    cursor: pointer;
+    position: relative;
+    padding: 0px 15px;
+    width: 0px;
+    height: 30px;
+    background: transparent;
+    color: #33a3dc;
+    font-family: sans-serif, helvetica;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    line-height: 0px;
+    vertical-align: top;
+    z-index: 2;
+    -moz-transition: width .4s cubic-bezier(0.17, 0.78, 0.32, 1.32);
+    -webkit-transition: width .4s cubic-bezier(0.17, 0.78, 0.32, 1.32);
+    transition: width .4s cubic-bezier(0.17, 0.78, 0.32, 1.32);
+}
+
+.searchForm input#searchField:focus {
+    margin-right: 20px;
+    width: 200px;
+    outline: none;
+}
+
+.searchForm .close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1px;
+    right: 0px;
+    z-index: 1;
+    cursor: pointer;
+    -moz-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.searchForm .close span {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 4px;
+    top: 32px;
+    right: -13px;
+    background: #33a3dc;
+    border-radius: 5px;
+    -moz-transition: .2s .5s ease-in-out;
+    -webkit-transition: .2s .5s ease-in-out;
+    transition: .2s .5s ease-in-out;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.searchForm .close span.back {
+    top: 12px;
+    right: 5px;
+    opacity: 0;
+}
+
+.searchForm input#searchField:focus + .close span {
+    top: 12px;
+    right: 5px;
+}
+
+.searchForm input#searchField:focus + .close span.back {
+    opacity: 1;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    -moz-transition: .4s .8s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    -webkit-transition: .4s .8s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: .4s .8s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.title {
+    font-size: 20px;
+    color: #33a3dc;
+}
+
+.title:hover{
+    font-size: 22px;
+    color: #4cdcdc;
+}
+
+#tags {
+    width: 80%;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    margin: 0px 0px 1px 0px;
+
+}
+
+.tag {
+    text-align: center;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.des {
+    font-size: 10px;
+    color: #33a3dc;
+}
+
+#gototop {
+    /* opacity: 0.6;*/
+
+    position: fixed;
+    left: 91%;
+    top: 84%;
+    width: 100px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#gototop img {
+    width: 100px;
+}
+
+#info {
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 500px;
+    position: relative;
+    margin: 20px auto;
+    left: 0%;
+    top: 0%;
+    color: #33a3dc;
+}
+
