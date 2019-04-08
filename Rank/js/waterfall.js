@@ -25,34 +25,29 @@ function init() {
     ajax("get", url + 'd', "page=0&date=" + date, showlist, true);
 }
 
-// function ajax(method, url, data, callback, flag) {
-//     var xhr = null,
-//         method = method.toUpperCase();
-//     if (window.XMLHttpRequest) {
-//         xhr = new XMLHttpRequest();
-//     } else {
-//         xhr = new ActiveXObject('Microsoft.XMLHttp');
-//     }
-//     if (method == "GET") {
-//         xhr.open(method, url + '?' + data, flag);
-//         xhr.send();
-//     } else if (method == "POST") {
-//         xhr.open(method, url, true);
-//         xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-//         xhr.send(data);
-//     }
-//     xhr.onreadystatechange = function () {
-//         if (xhr.readyState == 4) {
-//             if (xhr.status == 200) {
-//                 callback(xhr.responseText);
-//             }
-//         }
-//     }
-// }
-
-// mock
 function ajax(method, url, data, callback, flag) {
-    callback(JSON.stringify(mock.data.illustrations))
+    var xhr = null,
+        method = method.toUpperCase();
+    if (window.XMLHttpRequest) {
+        xhr = new XMLHttpRequest();
+    } else {
+        xhr = new ActiveXObject('Microsoft.XMLHttp');
+    }
+    if (method == "GET") {
+        xhr.open(method, url + '?' + data, flag);
+        xhr.send();
+    } else if (method == "POST") {
+        xhr.open(method, url, true);
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhr.send(data);
+    }
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                callback(xhr.responseText);
+            }
+        }
+    }
 }
 
 function showlist(data) {
