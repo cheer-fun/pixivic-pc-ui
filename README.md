@@ -1,4 +1,4 @@
-## pixivic.com-ui
+## pixivic-pc-ui
 
 > 原生js pc前端
 
