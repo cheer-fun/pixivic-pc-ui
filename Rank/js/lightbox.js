@@ -50,6 +50,36 @@ Lightbox.prototype.clickHandler = function (e) {
         img.classList.add('lightbox-current');
         this.container.appendChild(img);
     }
+    var intro = document.createElement('div');
+    intro.classList.add('lightbox-intro');
+    var p = document.createElement('p');
+    p.innerText = `Title: ${e.currentTarget.title}`;
+    p.classList.add('title');
+    intro.appendChild(p);
+    var p = document.createElement('p');
+    p.classList.add('intro');
+    p.innerText = `Tags:`;
+    e.currentTarget.tags.forEach(tag => {
+        var span = document.createElement('span');
+        span.classList.add('tag');
+        span.innerText = tag.name;
+        p.appendChild(span);
+    })
+    intro.appendChild(p);
+    var p = document.createElement('p');
+    p.classList.add('intro');
+    p.innerText = `Intro: ${e.currentTarget.caption}`;
+    intro.appendChild(p);
+    if (e.currentTarget.author.profile_image_urls.medium) {
+        var avator = document.createElement('img');
+        // avator.src = `https://bigimg.pixivic.com/get/${e.currentTarget.author.profile_image_urls.medium}`;
+        avator.src = e.currentTarget.children[0].src;
+        intro.appendChild(avator)
+    }
+    var p = document.createElement('p');
+    p.innerText = `${e.currentTarget.author.name}`
+    intro.appendChild(p);
+    this.container.appendChild(intro);
     document.body.appendChild(this.container);
     document.body.appendChild(this.overlay);
     setTimeout(function () {
