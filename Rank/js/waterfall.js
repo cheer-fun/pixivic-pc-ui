@@ -64,11 +64,17 @@ function showlist(data) {
             imgH = Math.ceil(228 * item.height / item.width);
             var imgUrl = item.meta_single_page.original_image_url;
             if (item.meta_pages.length > 0) {
+                var pages = document.createElement('div')
+                pages.classList.add('more-page');
+                pages.innerHTML = `<svg t="1555333791341" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="710" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs><style type="text/css"></style></defs>
+                    <path d="M914.3296 307.2V849.92a40.96 40.96 0 0 1-40.96 40.96h-542.72a40.96 40.96 0 0 1-40.96-40.96v-542.72a40.96 40.96 0 0 1 40.96-40.96h542.72a40.96 40.96 0 0 1 40.96 40.96z m-122.88-133.12a40.96 40.96 0 0 0-40.96-40.96h-542.72a40.96 40.96 0 0 0-40.96 40.96v542.72a40.96 40.96 0 0 0 81.92 0V215.04h501.76a40.96 40.96 0 0 0 40.96-40.96z" p-id="711"></path></svg>
+                    <span>${item.meta_pages.length}</span>`
                 imgUrl = item.meta_pages[0].image_urls.original;
             }
             elem = '<a href="' + item.url + '" alt ="' + item.title + '"  class="image" rel="https://www.pixiv.net/member_illust.php?mode=medium&illust_id='+item.id+'">\
-				        <img src ="' + imgUrl + '" height ="' + imgH + '"  width="228" alt="' + item.title + '">\
-				        </a>';
+                        <img src ="' + imgUrl + '" height ="' + imgH + '"  width="228" alt="' + item.title + '">\
+                        </a>';
             elem += item.title.length == 0 ? "" : '<p>' + item.title + '</p>';
             if (index < 4 && columnH.length != 4) {
                 oDiv.style.left = 240 * index + "px";
@@ -85,7 +91,14 @@ function showlist(data) {
                 columnH[minIndex] += oDiv.offsetHeight + 20;
                 document.getElementById('loader').style.top = columnH[minIndex] + 60 + "px";
             }
-            oDiv.children[0].meta_pages = item.meta_pages.map(e => e.image_urls.original);
+            pages && oDiv.appendChild(pages)
+            Object.assign(oDiv.children[0], {
+                meta_pages: item.meta_pages.map(e => e.image_urls.original),
+                title: item.title,
+                caption: item.caption,
+                tags: item.tags,
+                author: item.user,
+            });
         });
         let lightbox = new Lightbox('.image');
         flag = false;
