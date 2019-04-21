@@ -1,7 +1,7 @@
 var columnH = [],
     page = 0,
+    selectMode='day',
     flag = false, date, url = 'https://api.pixivic.com/';
-
 function getDay(page, str) {
     var today = new Date();
     var nowTime = today.getTime();
@@ -17,12 +17,12 @@ function getDay(page, str) {
 
 (function () {
     date = getDay(-3, '-');
-    document.title="Pixiv "+date+" 日排行";
+    document.title=`Pixiv ${date} 排行`;
 }());
 init();
 
 function init() {
-    ajax("get", url + 'd', "page=0&date=" + date, showlist, true);
+    ajax("get", url + 'ranks', `page=${page}&date=${date}&mode=${selectMode}`, showlist, true);
 }
 
 function ajax(method, url, data, callback, flag) {
@@ -118,7 +118,7 @@ function showdate() {
             flag = true;
             page++;
             // console.log(page);
-            ajax("get", url + 'd', "date=" + date + "&page=" + page, showlist, true);
+            ajax("get", url + 'ranks', `page=${page}&date=${date}&mode=${selectMode}`, showlist, true);
         }
     }
 }
@@ -130,7 +130,7 @@ function restart() {
     columnH = [],
         page = 0,
         flag = false;
-    ajax("get", url + 'd', "date=" + date + "&page=" + page, showlist, true);
+    ajax("get", url + 'ranks', `page=${page}&date=${date}&mode=${selectMode}`, showlist, true);
     var info = document.getElementById('info');
     info.innerHTML = '';
     document.title="Pixiv "+date+" 日排行";

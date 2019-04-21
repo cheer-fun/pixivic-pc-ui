@@ -32,23 +32,23 @@ Lightbox.prototype.setupContentArea = function () {
 Lightbox.prototype.clickHandler = function (e) {
     var _this = this;
     e.preventDefault();
-    var img = void 0;
     this.galId = e.currentTarget.rel;
     this.current = 0;
     if (e.currentTarget.meta_pages && e.currentTarget.meta_pages.length > 0) {
         var imageflow = document.createElement('div');
         imageflow.classList.add('lightbox-imageflow');
         e.currentTarget.meta_pages.map(meta_page_item => {
-            img = this.setupImage(meta_page_item, e.currentTarget.rel);
-            img.classList.remove('lightbox-image');
-            img.classList.add('lightbox-imageflow-image');
+            var img = this.setupImage(meta_page_item, e.currentTarget.rel);
             imageflow.appendChild(img);
         })
         this.container.appendChild(imageflow);
     } else {
-        img = this.setupImage(e.currentTarget.children[0].src, e.currentTarget.rel);
+        var imageflow = document.createElement('div');
+        imageflow.classList.add('lightbox-imageflow');
+        var img = this.setupImage(e.currentTarget.children[0].src, e.currentTarget.rel);
         img.classList.add('lightbox-current');
-        this.container.appendChild(img);
+        imageflow.appendChild(img);
+        this.container.appendChild(imageflow);
     }
     var intro = document.createElement('div');
     intro.classList.add('lightbox-intro');
@@ -68,11 +68,12 @@ Lightbox.prototype.clickHandler = function (e) {
     intro.appendChild(p);
     var p = document.createElement('p');
     p.classList.add('intro');
-    p.innerText = `Intro: ${e.currentTarget.caption}`;
+    p.innerHTML = `Intro: ${e.currentTarget.caption}`;
     intro.appendChild(p);
     if (e.currentTarget.author.profile_image_urls.medium) {
         var avator = document.createElement('img');
-        avator.src = `https://bigimg.pixivic.com/get/${e.currentTarget.author.profile_image_urls.medium}`;
+        // avator.src = `https://bigimg.pixivic.com/get/${e.currentTarget.author.profile_image_urls.medium}`;
+        avator.src = e.currentTarget.children[0].src;
         intro.appendChild(avator)
     }
     var p = document.createElement('p');
@@ -91,7 +92,7 @@ Lightbox.prototype.clickHandler = function (e) {
 Lightbox.prototype.setupImage = function (imgSrc,link) {
     var img = new Image();
     img.src = imgSrc;
-    img.classList.add('lightbox-image');
+    img.classList.add('lightbox-imageflow-image');
     img.onclick=function () {
         window.open(link);
     }

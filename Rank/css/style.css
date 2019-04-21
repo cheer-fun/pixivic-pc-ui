@@ -137,5 +137,35 @@ p {
     bottom: 0px;
     display: none;
     background: rgba(0, 0, 0, 0.3);
+    z-index: 200;
 }
 
+.arrow-left, .arrow-right {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.arrow-left {
+    left: 20px;
+}
+
+.arrow-right {
+    right: 20px;
+}
+
+.arrow-left, .arrow-right > svg {
+    fill: black;
+    width: 100px;
+    height: 100px;
+    opacity: 0.2;
+}
+
+.arrow-left:hover, .arrow-right:hover > svg {
+    opacity: 0.8;
+}
