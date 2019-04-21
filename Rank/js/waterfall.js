@@ -123,7 +123,7 @@ function showdate() {
             flag = true;
             page++;
             // console.log(page);
-            ajax("get", url + 'd', "date=" + date + "&page=" + page, showlist, true);
+            ajax("get", url + 'ranks', `page=${page}&date=${date}&mode=${selectMode}`, showlist, true);
         }
     }
 }
@@ -136,7 +136,7 @@ function restart() {
         page = 0,
         flag = false;
     console.log(date)
-    ajax("get", url + 'd', "date=" + date + "&page=" + page, showlist, true);
+    ajax("get", url + 'ranks', `page=${page}&date=${date}&mode=${selectMode}`, showlist, true);
     var info = document.getElementById('info');
     info.innerHTML = '';
     document.title="Pixiv "+date+" 日排行";
