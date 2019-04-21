@@ -1,7 +1,7 @@
 var columnH = [],
     page = 0,
+    selectMode='day',
     flag = false, date, url = 'https://api.pixivic.com/';
-
 function getDay(page, str) {
     var today = new Date();
     var nowTime = today.getTime();
@@ -22,7 +22,7 @@ function getDay(page, str) {
 init();
 
 function init() {
-    ajax("get", url + 'd', "page=0&date=" + date, showlist, true);
+    ajax("get", url + 'ranks', `page=${page}&date=${date}&mode=${selectMode}`, showlist, true);
 }
 
 // function ajax(method, url, data, callback, flag) {
@@ -135,6 +135,7 @@ function restart() {
     columnH = [],
         page = 0,
         flag = false;
+    console.log(date)
     ajax("get", url + 'd', "date=" + date + "&page=" + page, showlist, true);
     var info = document.getElementById('info');
     info.innerHTML = '';
