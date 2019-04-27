@@ -35,7 +35,7 @@ var mySchedule = new Schedule({
         document.querySelector('#h3Ele').innerHTML =y+'-'+m+'-'+d;
         date=y+'-'+m+'-'+d;
         select.apply($("span[data-value='day']")[0]);
-        selectMode = 'day'
+        selectMode = 'day';
         restart();
     },
     nextMonthCb: function (y,m,d) {
