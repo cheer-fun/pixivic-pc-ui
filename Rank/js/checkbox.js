@@ -23,14 +23,13 @@ $(".custom-select-trigger").on("click", function() {
 });
 
 function changeDateBySelect(add, now) {
-  if (now) {
-    now = new Date(...now.split('-'));
-    var month = now.getMonth();
-    month = month === 0 ? 11 : month - 1;
-    now.setMonth(month)
-  } else {
-    now = new Date();
+  console.log(now)
+  if (!now) {
+    now = date;
   }
+  now = now.split('-');
+  now[1] = parseInt(now[1]) - 1
+  now = new Date(...now);
   add = add || 0;
   page=0;
   switch (selectMode) {
@@ -39,7 +38,7 @@ function changeDateBySelect(add, now) {
       var year = now.getFullYear();
       var month = now.getMonth();
       var day = now.getDate();
-      date = [year, `${month+1}`.padStart(2,0), `${day}`.padStart(2,0)].join('-');
+      return [year, `${month+1}`.padStart(2,0), `${day}`.padStart(2,0)].join('-');
       break;
     case 'week':
       var day = now.getDay();
@@ -48,7 +47,7 @@ function changeDateBySelect(add, now) {
       var year = now.getFullYear();
       var month = now.getMonth();
       var day = now.getDate();
-      date = [year, `${month+1}`.padStart(2,0), `${day}`.padStart(2,0)].join('-');
+      return [year, `${month+1}`.padStart(2,0), `${day}`.padStart(2,0)].join('-');
       break;
     case 'month':
       var year = now.getFullYear();
@@ -74,7 +73,7 @@ function changeDateBySelect(add, now) {
           add += 1;
         }
       }
-      date = [year, `${month+1}`.padStart(2,0), '01'].join('-');
+      return [year, `${month+1}`.padStart(2,0), '01'].join('-');
       break;
   }
 }
@@ -90,7 +89,7 @@ function select() {
 function doSelect() {
   select.call(this);
   selectMode = $(this).data("value");
-  changeDateBySelect();
+  date = changeDateBySelect();
   restart();
 }
 $(".custom-option").on("click", doSelect);

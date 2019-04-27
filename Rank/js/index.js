@@ -35,6 +35,7 @@ var mySchedule = new Schedule({
         document.querySelector('#h3Ele').innerHTML =y+'-'+m+'-'+d;
         date=y+'-'+m+'-'+d;
         select.apply($("span[data-value='day']")[0]);
+        selectMode = 'day'
         restart();
     },
     nextMonthCb: function (y,m,d) {
@@ -67,9 +68,9 @@ document.onclick = function (e) {
 };
 
 document.getElementsByClassName('arrow-left')[0].onclick=function () {
-    changeDateBySelect(-1, date)
+    date = changeDateBySelect(-1, date)
 }
 
 document.getElementsByClassName('arrow-right')[0].onclick=function () {
-    changeDateBySelect(1, date)
+    date = changeDateBySelect(1, date)
 }
